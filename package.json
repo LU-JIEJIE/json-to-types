@@ -1,7 +1,7 @@
 {
-  "name": "json-to-types",
+  "name": "@lu-jiejie/json-to-types",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@8.6.0",
   "description": "",
   "license": "MIT",
@@ -17,11 +17,11 @@
     ".": {
       "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.js"
     }
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
