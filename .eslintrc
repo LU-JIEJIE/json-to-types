@@ -1,0 +1,12 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    // "sort-imports": "off"
+  },
+  // 排除json文件夹
+  "ignorePatterns": [
+    "json"
+  ]
+}
