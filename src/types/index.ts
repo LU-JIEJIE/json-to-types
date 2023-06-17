@@ -23,3 +23,15 @@ export interface ParseContext {
   offset: number
   source: string
 }
+
+export interface KeyTypeObject {
+  [key: string]: string
+}
+
+export interface GeneratorOptions {
+  indents?: number
+  objectKeyword?: 'interface' | 'type'
+  expendArray?: boolean
+  typesPrefix?: string
+  typesSuffix?: string
+}

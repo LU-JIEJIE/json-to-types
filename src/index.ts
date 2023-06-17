@@ -1,6 +1,8 @@
-import { parseJson } from './utils'
+import type { GeneratorOptions } from './types'
+import { generateTypes, parseJson } from './utils'
 
-export function jsonToTypes(json: string) {
+export function jsonToTypes(json: string, options?: GeneratorOptions) {
   const ast = parseJson(json)
-  return ast
+  const typesStr = generateTypes(ast, options)
+  return typesStr
 }

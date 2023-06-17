@@ -1,2 +1,2 @@
-# json-to-types
+# @lu-jiejie/json-to-types
 

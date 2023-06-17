@@ -3,12 +3,12 @@ export const TYPE_STRING = 'String'
 export const TYPE_NUMBER = 'Number'
 export const TYPE_ARRAY = 'Array'
 export const TYPE_BOOLEAN = 'Boolean'
-export const TYPE_NULL = 'Null'
-export const TYPE_UNDEFINED = 'Undefined'
+export const TYPE_NULL = 'null'
+export const TYPE_UNDEFINED = 'undefined'
 
 // root
 export const TYPE_ROOT = TYPE_OBJECT
-export const KEY_ROOT = ''
+export const KEY_ROOT = 'root'
 export const KEY_ARRAY_ITEM = 'ArrayItem'
 
 // 正则表达式
